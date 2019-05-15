@@ -1,1 +1,1 @@
-﻿#123
+# Kumas Royale [RU TERA] Exploit
