@@ -23,7 +23,8 @@ This Tera-Toolbox module allows you to:
 **Need to be used in _Proxy Channel_ (/proxy) or (/8)**
 ```
 - /8 kuma -2000 - Hide the character for 2000 units under the ground (use for Boss Kumas)
-- /8 kuma 0 - restore the original height of the character above the ground (user for Baby Kumas after Boss Kumas)
+- /8 kuma 0 - Restore the original height of the character above the ground (user for Baby Kumas after Boss Kumas)
+- /8 kuma 200 - You stay on the ground, but become immortal! ]:> (if after using the skill, you are thrown back, enter again)
 ```
 ## Module Preview (proof of work)
 
