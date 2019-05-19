@@ -17,7 +17,7 @@ This Tera-Toolbox module allows you to:
   
 ## Setup:
 - Copy/paste all .def files from the [protocol folder](https://github.com/PinguinRei/Kumas-Royale-RU-TERA/tree/master/defs) to `<path to proxy>\node_modules\tera-data\protocol\`.
-- Copy/paste the opcodes (as appropriate to your region) from the map folder into the corresponding .map file within `<path to proxy>\node_modules\tera-data\map\`.
+- Copy/paste the [opcodes](https://github.com/PinguinRei/Kumas-Royale-RU-TERA/tree/master/opcodes) (as appropriate to your region) from the map folder into the corresponding .map file within `<path to proxy>\node_modules\tera-data\map\`.
 
 ## Commands
 **Need to be used in _Proxy Channel_ (/proxy) or (/8)**
