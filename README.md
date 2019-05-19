@@ -1,6 +1,6 @@
 # Kumas Royale [RU TERA] Exploit
 
-❗**The use of this module is a violation of the rules of the game. This entails blocking the account. Use at your own risk!!!**❗
+**The use of this module is a violation of the rules of the game. This entails blocking the account. Use at your own risk!!!**
 
 This Tera-Toolbox module allows you to:
 - Hide Kumas Boss under textures and make it unapproachable.
