@@ -1,1 +1,136 @@
-var _0xf197=['C_PRESS_SKILL','hook','C_START_SKILL','skill','S_LOGIN','templateId','A310110','A310120','length','C_PLAYER_LOCATION','S_LOAD_TOPO','zone','add','kuma','<font\x20color=\x22#ffff00\x22>Position\x20correct\x20to\x20','.</font>','C_VEHICLEEX_LOCATION','exports','indexOf','toString','toClient','S_INSTANT_MOVE','command','message'];(function(_0x2d8f05,_0x4b81bb){var _0x4d74cb=function(_0x32719f){while(--_0x32719f){_0x2d8f05['push'](_0x2d8f05['shift']());}};_0x4d74cb(++_0x4b81bb);}(_0xf197,0x71));var _0x4c2c=function(_0x208a89,_0x4fbcd9){_0x208a89=_0x208a89-0x0;var _0x487c52=_0xf197[_0x208a89];return _0x487c52;};module[_0x4c2c('0x0')]=function KUMAS(_0x61db4b){let _0x2a5e21=![];let _0x5e2968=0x0;let _0x5f3098=0x10cc;let _0xbdb3f=[];let _0x14ceb0=0x0;let _0x565cf6=0x0;let _0x1d8fbc=0x0;let _0x127077=0x0;let _0x4fa865=0x0;let _0x20d74e=0x0;let _0x40125d=0x0;let _0x5c9ba7=0x0;let _0x2cceb8=[];let _0x568a97=0x0;function _0x278832(_0x43bc8c,_0x4be346,_0x19f862){for(var _0x3fa27e=0x0;_0x3fa27e<_0x43bc8c['length'];_0x3fa27e++){for(var _0x3ffc38=0x0;_0x3ffc38<_0x4be346;_0x3ffc38++){if(_0x43bc8c[_0x4c2c('0x1')](_0x19f862[_0x3ffc38])!=-0x1){return _0x3ffc38;}}}return-0x1;}function _0x28af06(_0x37cdf7,_0x1a5c7e){for(let _0x26ce3b=0x0;_0x26ce3b<_0x37cdf7['length'];_0x26ce3b++){if(_0x37cdf7[_0x26ce3b][_0x4c2c('0x2')]()===_0x1a5c7e[_0x4c2c('0x2')]()){return _0x26ce3b;}}return-0x1;}function _0x3333d6(){_0x4fa865=_0x127077-_0x5e2968;_0x61db4b[_0x4c2c('0x3')](_0x4c2c('0x4'),0x1,{'id':_0x20d74e,'x':_0xbdb3f[0x0],'y':_0xbdb3f[0x1],'z':_0x4fa865,'w':_0xbdb3f[0x5]});_0x61db4b[_0x4c2c('0x5')][_0x4c2c('0x6')]('<font\x20color=\x22#00ffff\x22>[Kumas Royale]</font>\x20You\x20alredy\x20on\x20ground!');_0x2a5e21=![];}_0x61db4b['hook'](_0x4c2c('0x7'),0x4,_0x5a39d5=>{if(_0x2a5e21)return![];});_0x61db4b[_0x4c2c('0x8')](_0x4c2c('0x9'),0x7,_0x5c4155=>{_0x5c9ba7=_0x5c4155[_0x4c2c('0xa')][_0x4c2c('0x2')]();let _0x2d4fb6=_0x278832(_0x5c9ba7,_0x568a97,_0x2cceb8);if(_0x2d4fb6==-0x1||_0x5e2968>=0x0){return;}else{if(!_0x2a5e21){_0x127077=_0xbdb3f[0x2]+_0x5e2968;_0x2a5e21=!![];_0x61db4b[_0x4c2c('0x3')]('S_INSTANT_MOVE',0x1,{'id':_0x20d74e,'x':_0xbdb3f[0x0],'y':_0xbdb3f[0x1],'z':_0x127077,'w':_0xbdb3f[0x5]});_0x61db4b['command'][_0x4c2c('0x6')]('<font\x20color=\x22#00ffff\x22>[Kumas Royale]</font>\x20You\x20are\x20UNDERGROUND!');setTimeout(_0x3333d6,_0x5f3098);return![];}else{return![];}}});_0x61db4b[_0x4c2c('0x8')](_0x4c2c('0xb'),0xd,_0x1a7ecd=>{_0x20d74e=_0x1a7ecd['gameId'];_0x40125d=_0x1a7ecd[_0x4c2c('0xc')]%0x64;if(_0x40125d==0x5){_0x2cceb8=[_0x4c2c('0xd'),_0x4c2c('0xe')];}else{_0x2cceb8=[];}_0x568a97=_0x2cceb8[_0x4c2c('0xf')];});_0x61db4b[_0x4c2c('0x8')](_0x4c2c('0x10'),0x1,_0x7094=>{_0xbdb3f[0x0]=_0x7094['x2'];_0xbdb3f[0x1]=_0x7094['y2'];_0xbdb3f[0x2]=_0x7094['z2'];_0xbdb3f[0x4]=_0x7094['time'];_0xbdb3f[0x5]=_0x7094['w'];});_0x61db4b[_0x4c2c('0x8')](_0x4c2c('0x11'),0x1,_0x1820da=>{_0xbdb3f[0x3]=_0x1820da[_0x4c2c('0x12')];});let _0x2800c2=0x0;_0x61db4b[_0x4c2c('0x5')][_0x4c2c('0x13')](_0x4c2c('0x14'),_0x5da584=>{if(0x76===_0xbdb3f[0x3]){_0x2800c2=parseFloat(_0x5da584);_0x61db4b[_0x4c2c('0x5')][_0x4c2c('0x6')](_0x4c2c('0x15')+_0x2800c2+_0x4c2c('0x16'));}else{_0x61db4b[_0x4c2c('0x5')][_0x4c2c('0x6')]('<font\x20color=\x22#00ffff\x22>[Kumas Royale]</font>\x20<font\x20color=\x22#ffff00\x22>Only\x20Kuma\x20Royale!</font>');}});_0x61db4b[_0x4c2c('0x8')](_0x4c2c('0x17'),0x1,_0xce789f=>{if(_0x2800c2===0x0)return;_0xce789f['z1']+=_0x2800c2;_0xce789f['z2']+=_0x2800c2;return!![];});};
+//////////////////HELP////////////////////////
+//proxy kuma ## - Correct Z Position NEW!
+
+module.exports = function KR(mod) {
+
+let skillport = false;
+let shift = 0; //you Z coord conf
+let secdef = 4300; //ms for incredible
+
+  let xyz = [];
+  let svx = 0;
+  let svy = 0;
+  let svz = 0;
+  
+  let a = 0;
+  let b = 0;
+  
+  let id = 0; //you client id
+  let model = 0; //you class
+  
+  let skillid = 0; //current skill id
+  let mask = []; //mask work skill id
+  let mask_size = 0;
+
+/////////////////////////////////////////
+/////////////////////////////////////////
+/////////////////////////////////////////
+function IncMask (inc, size, msa) {
+    for(var i = 0; i < inc.length; i++) {
+        for(var n = 0; n < size; n++) {
+            if(inc.indexOf(msa[n]) != -1) {
+                return n;
+            }}
+  }
+  return -1
+}
+
+function findInArray(ary, item) {
+    for (let i = 0; i < ary.length; i++) {
+    if (ary[i].toString() === item.toString()) {
+   return i
+   }}
+    return -1
+}
+/////////////////////////////////////////
+/////////////////////////////////////////
+/////////////////////////////////////////
+
+function Reload() {
+b = (a - shift)
+  mod.toClient('S_INSTANT_MOVE', 1,{
+                    id: id,
+                    x: xyz[0],
+                    y: xyz[1],
+                    z: b,
+                    w: xyz[5]})
+ mod.command.message('<font color="#00ffff">[KR]</font> You alredy on ground!')
+ skillport = false
+}
+  
+mod.hook('C_PRESS_SKILL', 4, event => {
+if(skillport) return false
+})
+
+mod.hook('C_START_SKILL', 7, event => {
+  skillid = event.skill.toString()
+  let filter = IncMask(skillid, mask_size, mask)
+  
+if (filter == -1 || shift >= 0) {
+    //console.log('S_FILTER: ' + event.skill)
+    return
+}else{
+    if (!skillport) {
+    //console.log('S_PASS: ' + event.skill)
+    a = (xyz[2] + shift)
+    skillport = true
+  mod.toClient('S_INSTANT_MOVE', 1,{
+                    id: id,
+                    x: xyz[0],
+                    y: xyz[1],
+                    z: a,
+                    w: xyz[5]})
+    mod.command.message('<font color="#00ffff">[KR]</font> You are UNDERGROUND!')
+    setTimeout(Reload, secdef)
+    return false
+    }else{
+      return false
+    }
+}
+})
+
+  mod.hook('S_LOGIN', 13, (event) => {
+  id = event.gameId;
+  model = event.templateId % 100
+  
+    if (model == 5){
+    mask = ["A310110", "A310120"] //PORT SKILL REPLACE
+    }else{
+    mask = []
+    }
+    mask_size = mask.length
+})
+  
+  mod.hook('C_PLAYER_LOCATION', 1, (event) => {
+    xyz[0] = event.x2
+    xyz[1] = event.y2
+    xyz[2] = event.z2
+    xyz[4] = event.time
+    xyz[5] = event.w
+  })
+  
+  
+  mod.hook('S_LOAD_TOPO', 1, (event) => {
+    xyz[3] = event.zone})
+  
+  // ###################### //
+  // ## KR- KUMAS Royale ## //
+  // ###################### //
+  
+  let kuma = 0;
+  
+  mod.command.add('kuma', (offset) => {
+  if (118 === xyz[3]) {
+    kuma = parseFloat(offset)
+    mod.command.message('<font color="#ffff00">Position correct to '+(kuma)+'.</font>')
+       }else{
+    mod.command.message('<font color="#00ffff">[KR]</font> <font color="#ffff00">Only Kuma Royale!</font>');}
+  })
+  
+  mod.hook('C_VEHICLEEX_LOCATION', 1, (event) => {
+    if (kuma === 0) return
+    event.z1 += kuma
+    event.z2 += kuma
+    return true
+  })
+}
