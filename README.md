@@ -6,9 +6,6 @@ This Tera-Toolbox module allows you to:
 - Hide Kumas Boss under textures and make it unapproachable.
 - Transfer to the baby Kumas afterwards and kill the enemy boss Kumas.
 
-## How to get?:
-- To get the module, ask me in the discord: PenguinRei#6371
-
 ## Proxy compatibility:
 - Tested on Tera-Toolbox proxy only.
 - Opcodes provided for:
