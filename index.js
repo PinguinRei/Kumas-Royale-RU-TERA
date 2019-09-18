@@ -11,13 +11,13 @@ let secdef = 4300; //ms for incredible
   let svx = 0;
   let svy = 0;
   let svz = 0;
-  
+
   let a = 0;
   let b = 0;
   
   let id = 0; //you client id
   let model = 0; //you class
-  
+
   let skillid = 0; //current skill id
   let mask = []; //mask work skill id
   let mask_size = 0;
@@ -48,7 +48,7 @@ function findInArray(ary, item) {
 
 function Reload() {
 b = (a - shift)
-  mod.toClient('S_INSTANT_MOVE', 1,{
+  mod.toClient('S_INSTANT_MOVE', 3,{
                     id: id,
                     x: xyz[0],
                     y: xyz[1],
@@ -57,7 +57,7 @@ b = (a - shift)
  mod.command.message('<font color="#00ffff">[KR]</font> You alredy on ground!')
  skillport = false
 }
-  
+
 mod.hook('C_PRESS_SKILL', 4, event => {
 if(skillport) return false
 })
@@ -65,7 +65,7 @@ if(skillport) return false
 mod.hook('C_START_SKILL', 7, event => {
   skillid = event.skill.toString()
   let filter = IncMask(skillid, mask_size, mask)
-  
+
 if (filter == -1 || shift >= 0) {
     //console.log('S_FILTER: ' + event.skill)
     return
@@ -74,7 +74,7 @@ if (filter == -1 || shift >= 0) {
     //console.log('S_PASS: ' + event.skill)
     a = (xyz[2] + shift)
     skillport = true
-  mod.toClient('S_INSTANT_MOVE', 1,{
+  mod.toClient('S_INSTANT_MOVE', 3,{
                     id: id,
                     x: xyz[0],
                     y: xyz[1],
@@ -92,7 +92,7 @@ if (filter == -1 || shift >= 0) {
   mod.hook('S_LOGIN', 13, (event) => {
   id = event.gameId;
   model = event.templateId % 100
-  
+
     if (model == 5){
     mask = ["A310110", "A310120"] //PORT SKILL REPLACE
     }else{
@@ -100,25 +100,25 @@ if (filter == -1 || shift >= 0) {
     }
     mask_size = mask.length
 })
-  
-  mod.hook('C_PLAYER_LOCATION', 1, (event) => {
+
+  mod.hook('C_PLAYER_LOCATION', 5, (event) => {
     xyz[0] = event.x2
     xyz[1] = event.y2
     xyz[2] = event.z2
     xyz[4] = event.time
     xyz[5] = event.w
   })
-  
-  
-  mod.hook('S_LOAD_TOPO', 1, (event) => {
+
+
+  mod.hook('S_LOAD_TOPO', 3, (event) => {
     xyz[3] = event.zone})
-  
+
   // ###################### //
   // ## KR- KUMAS Royale ## //
   // ###################### //
-  
+
   let kuma = 0;
-  
+
   mod.command.add('kuma', (offset) => {
   if (118 === xyz[3]) {
     kuma = parseFloat(offset)
@@ -126,7 +126,7 @@ if (filter == -1 || shift >= 0) {
        }else{
     mod.command.message('<font color="#00ffff">[KR]</font> <font color="#ffff00">Only Kuma Royale!</font>');}
   })
-  
+
   mod.hook('C_VEHICLEEX_LOCATION', 1, (event) => {
     if (kuma === 0) return
     event.z1 += kuma
