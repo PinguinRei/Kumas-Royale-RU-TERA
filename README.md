@@ -9,7 +9,7 @@ This Tera-Toolbox module allows you to:
 ## Proxy compatibility:
 - Tested on Tera-Toolbox proxy only.
 - Opcodes provided for:
-  - **RU** (patch **82.5**, [protocol version 350024](https://github.com/PinguinRei/Kumas-Royale-RU-TERA/blob/master/opcodes/protocol.350024.map))
+  - **RU** (patch **85.7**, [protocol version 351828](https://github.com/PinguinRei/Kumas-Royale-RU-TERA/blob/master/opcodes/protocol.351828.map))
   
 ## Setup:
 - Copy/paste all .def files from the [protocol folder](https://github.com/PinguinRei/Kumas-Royale-RU-TERA/tree/master/defs) to `<path to proxy>\node_modules\tera-data\protocol\`.
